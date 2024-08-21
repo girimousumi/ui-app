@@ -1,26 +1,16 @@
+// import { useCarousel } from "./carousel";
+import { CarouselSize } from "./carousal";
+import Navbar from "./navbar";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
-    {/* Header */}
-    <h1>Hello World</h1>
-    {/* Slider */}
-
-    {/* Vertical Line */}
-
-    {/* Text Area with Button */}
-
-    {/* Slider 2 */}
-
-    {/* Circular slider with 4 cards */}
-
-    {/* Vertical Line */}
-
-    {/* Section Heading */}
-
-    {/* Cards with icon */}
-
-    {/* Footer */}
+      <Navbar />
+      <div style={{marginTop: 128}}>
+        <CarouselSize />
+      </div>
     </>
-  )
-}
+  );
+};
+
+export default Home;
