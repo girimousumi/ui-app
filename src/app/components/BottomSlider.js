@@ -23,7 +23,7 @@ const BottomSlider = () => {
 
         {/* Center Section */}
         <div className="rounded-full overflow-hidden w-64 h-64 flex-shrink-0">
-          <img src={"logo.jpeg"} alt="Center Image" className="object-cover w-full h-full" />
+          <img src={"Logo.jpeg"} alt="Center Image" className="object-cover w-full h-full" />
         </div>
 
         {/* Right Section */}

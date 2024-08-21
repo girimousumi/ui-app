@@ -4,8 +4,8 @@ const Navbar = () => {
   return (
     <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600 mb-96">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="\Logo.jpeg" className="h-20" alt="Flowbite Logo"></img>
+        <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="\Logo.jpeg" className="h-20" alt="UI App Logo"></img>
           <span className="text-yellow-600 font-mono italic font-thin font-light self-center text-2xl font-semibold whitespace-nowrap dark:text-white font-family: 'Atma' font-style: normal font-weight: 400 font-size: 19px color: rgb(253 186 116); opacity: 0.8" >Kotha Residency</span>
         </a>
         <div className="flex md:order-2 space-x-3 md:space-x-2 rtl:space-x-reverse">

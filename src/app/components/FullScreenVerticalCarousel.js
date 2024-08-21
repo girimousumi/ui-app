@@ -30,7 +30,7 @@ const FullScreenVerticalCarousel = () => {
   return (
     <div
       id="carousel-container"
-      className="relative h-96 w-full overflow-hidden"
+      className="relative h-[600px] w-full overflow-hidden"
     >
       <div
         className="absolute inset-0 flex flex-col transition-transform duration-700"
