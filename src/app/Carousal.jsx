@@ -11,7 +11,12 @@ import {
 
 export function CarouselSize() {
 
-  const items = []
+  const items = [
+    "slide1img1.jpeg",
+    "slide1img2.jpeg",
+    "slide1img3.jpeg",
+    "slide1img4.jpeg",
+  ]
 
   return (
     <Carousel
@@ -20,14 +25,13 @@ export function CarouselSize() {
       }}
       className="w-full max-w-sm"
     >
-      <CarouselContent>
-        {Array.from({ length: 5 }).map((_, index) => (
+      <CarouselContent className="w-96 h-auto">
+        {items.map((item, index) => (
           <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
             <div className="p-1">
               <Card>
                 <CardContent className="flex aspect-square items-center justify-center p-6">
-                  {/* <span className="text-3xl font-semibold">{index + 1}</span> */}
-                  <img src="https://www.dakshasapacademy.com/img/home/a-girl-with-book.jpg" />
+                  {/* <img src={item}  alt="slider" /> */}
                 </CardContent>
               </Card>
             </div>
