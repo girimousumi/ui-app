@@ -1,5 +1,3 @@
-// import { useCarousel } from "./carousel";
-import { CarouselSize } from "./carousal";
 import BottomSlider from "./components/BottomSlider";
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
